@@ -17,3 +17,9 @@ Insertion and Selection times are calculated and recorded in the table for both 
 
 ### OracleSQL Insert and Select time for 100000 numbers
 ![Hazelcast100k](https://github.com/ahmetust/i2i-Systems_Hazelcast_Assignment/blob/main/Screenshots/oracle100k.JPG)
+
+
+| Data Amount   | Hazelcast Insert  | OracleSQL Insert | Hazelcast Select  | OracleSQL Select |
+| ------------  | ----------------- | -----------------|-------------------|------------------|
+| 20000         |      528 ms       |      5512ms      |      327 ms       |       349 ms     |
+| 100000        |     2358 ms       |     29853ms      |     1581 ms       |      1634 ms     |
